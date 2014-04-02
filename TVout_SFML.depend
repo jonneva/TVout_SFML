@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1394872590 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/Controllers/ButtonController.cpp
+	<stdlib.h>
+	<string.h>
+	<inttypes.h>
+	<SFML/Graphics.hpp>
+	"ButtonController.h"
+	"wrapper.h"
+
+1394840658 /home/jonne/Desktop/SFMLDev/TVout_SFML/Controllers/ButtonController.h
+	<inttypes.h>
+
+1396399093 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/wrapper.h
+	<SFML/Graphics.hpp>
+	"TVout.h"
+
+1394834458 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/TVout.h
+	<stdint.h>
+	<stdlib.h>
+
+1396398886 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<math.h>
+	"wrapper.h"
+	"TVout.h"
+	"fontALL.h"
+	"schematic.h"
+	"TVOlogo.h"
+
+1288897108 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/fontALL.h
+	"font4x6.h"
+	"font6x8.h"
+	"font8x8.h"
+	"font8x8ext.h"
+
+1394741042 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font4x6.h
+
+1394741050 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font6x8.h
+
+1394741054 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font8x8.h
+
+1394741060 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font8x8ext.h
+
+1394741066 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/schematic.h
+
+1394741072 /home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/TVOlogo.h
+
+1394775706 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font4x6.cpp
+	"font4x6.h"
+
+1394775714 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font6x8.cpp
+	"font6x8.h"
+
+1394775720 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font8x8.cpp
+	"font8x8.h"
+
+1394775728 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutfonts/font8x8ext.cpp
+	"font8x8ext.h"
+
+1394778590 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/schematic.cpp
+	"schematic.h"
+
+1394872732 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/SFMLRenderTV.cpp
+	<SFML/Graphics.hpp>
+	"wrapper.h"
+	"TVout.h"
+
+1394833296 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/TVOlogo.cpp
+	"TVOlogo.h"
+
+1394837666 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/TVoutPrint.cpp
+	<math.h>
+	"TVout.h"
+	"wrapper.h"
+
+1396398174 source:/home/jonne/Desktop/SFMLDev/TVout_SFML/TVoutSFMLlib/TVout.cpp
+	<SFML/Graphics.hpp>
+	"TVout.h"
+	"wrapper.h"
+
