@@ -13,6 +13,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-fpermissive" />
+					<Add directory="Controllers" />
+					<Add directory="TVoutfonts" />
+					<Add directory="TVoutSFMLlib" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics" />
@@ -22,9 +26,32 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++0x" />
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="cb.bmp" />
+		<Unit filename="Controllers/ButtonController.cpp" />
+		<Unit filename="Controllers/ButtonController.h" />
+		<Unit filename="Controllers/Controllers.h" />
+		<Unit filename="Controllers/LICENSE.txt" />
+		<Unit filename="TVoutSFMLlib/SFMLRenderTV.cpp" />
+		<Unit filename="TVoutSFMLlib/TVOlogo.cpp" />
+		<Unit filename="TVoutSFMLlib/TVOlogo.h" />
+		<Unit filename="TVoutSFMLlib/TVout.cpp" />
+		<Unit filename="TVoutSFMLlib/TVout.h" />
+		<Unit filename="TVoutSFMLlib/TVoutPrint.cpp" />
+		<Unit filename="TVoutSFMLlib/schematic.cpp" />
+		<Unit filename="TVoutSFMLlib/schematic.h" />
+		<Unit filename="TVoutSFMLlib/wrapper.h" />
+		<Unit filename="TVoutfonts/font4x6.cpp" />
+		<Unit filename="TVoutfonts/font4x6.h" />
+		<Unit filename="TVoutfonts/font6x8.cpp" />
+		<Unit filename="TVoutfonts/font6x8.h" />
+		<Unit filename="TVoutfonts/font8x8.cpp" />
+		<Unit filename="TVoutfonts/font8x8.h" />
+		<Unit filename="TVoutfonts/font8x8ext.cpp" />
+		<Unit filename="TVoutfonts/font8x8ext.h" />
+		<Unit filename="TVoutfonts/fontALL.h" />
+		<Unit filename="TVoutfonts/keywords.txt" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
